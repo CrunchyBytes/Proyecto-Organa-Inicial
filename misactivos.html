@@ -14,19 +14,15 @@
         <body>
             <h1>Mis Activos</h1>
 
-            <button class="activos-btn" action="">Retirar Activo</button>
-            <br />
-            <br />
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Mostrar Todo</th>
-                        <th>Mis Equipos de Cómputo</th>
-                        <th>Mis Accesorios</th>
-                        <th>Mi Telefonía</th>
-                    </tr>
-                    <tr>
+            <div class="exp-table">
+                <button class="tablinks" onclick="">Mostrar Todos</button>
+                <button class="tablinks" onclick="">Mis Equipos de Cómputo</button>
+                <button class="tablinks" onclick="">Mis Accesorios</button>
+                <button class="tablinks" onclick="">Mi Telefonía</button>
+            </div>
+            <div id=table1>
+                <table class="table">
+                    <thead>
                         <th>Imagen</th>
                         <th>No. Serie</th>
                         <th>Categoría</th>
@@ -34,13 +30,26 @@
                         <th>Modelo</th>
                         <th>Fecha de Entrega</th>
                         <th>Garantía</th>
-                    </tr>
-                </thead>
-                <tbody>
-
-                </tbody>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>img</td>
+                            <td>123465798</td>
+                            <td>laptop</td>
+                            <td>dell</td>
+                            <td>inspiron 349</td>
+                            <td>31/05/2021</td>
+                            <td>31/05/2022</td>
+                        </tr>
+                    </tbody>
+            </div>
             </table>
+
         </body>
     </body>
+
+    <div class="footer">
+        <p>Copyright © 2021 T-Systems. Todos los derechos reservados.</p>
+    </div>
 
 </html>
