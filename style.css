@@ -5,3 +5,14 @@ td {
     border-color: black;
     margin: 0;
 }
+
+.activos-btn {
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+.user-login {
+    /* border-style: dashed;
+    border-width: 0.1rem; */
+    padding: 0.2rem;
+}

@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Login -->
 
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Organa</title>
     </head>
 
     <body>
-        <h1>Bienvenido</h1>
-        <a href="misactivos.html">Mis Activos</a>
+        <h4>Inicia Sesión con tus credenciales</h4>
+
+        <div class="user-login">
+            <form action="home.html">
+                <label for="uname">Username</label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+                <label for="psw">Password</label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </body>
 
 </html>
