@@ -1,18 +1,60 @@
+table,
 th,
 td {
     padding: 15px;
-    border-style: solid;
-    border-color: black;
+    border: 1px solid black;
+    border-spacing: 0;
     margin: 0;
-}
-
-.activos-btn {
-    border-radius: 5px;
-    padding: 0.4rem;
+    text-align: center;
 }
 
 .user-login {
     /* border-style: dashed;
     border-width: 0.1rem; */
     padding: 0.2rem;
+}
+
+.tablinks {
+    padding: .5rem;
+}
+
+.exp-table {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 0;
+    width: 50%;
+}
+
+.exp-table button {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 0;
+}
+
+.exp-table button:hover {
+    background-color: #e00775;
+}
+
+.table {
+    padding: 0;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+    background-color: #e00775;
+    color: white;
+    text-align: center;
+}
+
+#table1 {
+    padding: 0;
+    width: 50%;
 }
