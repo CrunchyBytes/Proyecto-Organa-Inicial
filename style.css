@@ -23,7 +23,7 @@ td {
     flex-direction: row;
     border: 1px solid black;
     margin: 0;
-    width: 50%;
+    width: fit-content;
 }
 
 .exp-table button {
@@ -49,9 +49,19 @@ td {
     bottom: 0;
     width: 100%;
     height: 6%;
-    background-color: #e00775;
+    background-color: #7a7a7a;
     color: white;
     text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #e00775;
 }
 
 #table1 {
