@@ -18,7 +18,7 @@ td {
     padding: .5rem;
 }
 
-.exp-table {
+.view-options {
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -26,7 +26,7 @@ td {
     width: fit-content;
 }
 
-.exp-table button {
+.view-options button {
     font-size: 1rem;
     border: none;
     outline: none;
@@ -34,13 +34,14 @@ td {
     margin: 0;
 }
 
-.exp-table button:hover {
+.view-options button:hover {
     background-color: #e00775;
 }
 
 .table {
     padding: 0;
 }
+
 
 /* Footer */
 .footer {
@@ -64,7 +65,12 @@ td {
     color: #e00775;
 }
 
-#table1 {
+.table-comp {
     padding: 0;
-    width: 50%;
+}
+
+.child-table {
+    background-color: #cdcdcd;
+    padding: 10px 3px;
+    margin: 0;
 }
